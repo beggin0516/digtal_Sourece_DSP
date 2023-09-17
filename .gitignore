@@ -1,0 +1,10 @@
+*.a
+*.o
+
+//!unignored_information.o
+
+
+
+build/
+doc/*.txt
+doc/**/*.pdf
