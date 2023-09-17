@@ -1,2 +1,1 @@
-dasdjashdjahjS
-sdhagshjdgahjg
+主要是用来学习数控电源，熟悉简单的拓扑，了解DSP--(现在TI已经将这种芯片叫做MCU)，主控我使用的是TMSF28335,在PWM波方面还是有他的优势的。
