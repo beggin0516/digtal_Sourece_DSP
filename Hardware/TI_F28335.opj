@@ -3,7 +3,11 @@
   (SoftwareVersion "17.4-2019 S032 (4052516)  [8/29/2022]-[09/18/23]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File ".\lib\ti_f28335.olb"
+        (Type "Schematic Library"))
+      (File ".\download_package\f28335\orcadcaptureolb\orcadcaptureolb.olb"
+        (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
@@ -23,4 +27,62 @@
     (Folder "Include Files"
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
-  (Folder "Logs"))
+  (Folder "Logs")
+  (PartMRUSelector
+    (TMS320F28335PGFA
+      (FullPartName "TMS320F28335PGFAB.Normal")
+      (LibraryName "E:\PROJECT_PRODUCT\TI_F28335\HARDWARE\LIB\TI_F28335.OLB")
+      (DeviceIndex "1")))
+  (MPSSessionName "18986")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "E:\project_product\Ti_F28335\Hardware\ti_f28335.dsn")
+      (Path "Design Resources"
+         "E:\project_product\Ti_F28335\Hardware\ti_f28335.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\lib\ti_f28335.olb")
+      (Select "Design Resources"
+         "E:\project_product\Ti_F28335\Hardware\ti_f28335.dsn" "SCHEMATIC1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 432 0 797"))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1071 28 843"))
+      (Path "E:\project_product\Ti_F28335\Hardware\lib\TI_F28335.OLB")
+      (Package "TMS320F28335PGFA")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1071 28 843"))
+      (Path
+         "E:\PROJECT_PRODUCT\TI_F28335\HARDWARE\DOWNLOAD_PACKAGE\F28335\ORCADCAPTUREOLB\ORCADCAPTUREOLB.OLB")
+      (Package "TMS320F28335PGFA")
+      (PartType "1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1071 28 843")
+        (Scroll "-8 -66")
+        (Zoom "67")
+        (Occurrence "/"))
+      (Path "E:\PROJECT_PRODUCT\TI_F28335\HARDWARE\TI_F28335.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "F28335"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1071 28 843")
+        (Scroll "-7 -13")
+        (Zoom "105")
+        (Occurrence "/"))
+      (Path "E:\PROJECT_PRODUCT\TI_F28335\HARDWARE\TI_F28335.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Device_power"))))
